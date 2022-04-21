@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="alert alert-primary" role="alert">
+    <h1>Записки на холодильнике</h1>
+    <a class="btn btn-warning" href="/fridge">Посмотреть</a>
+</div>
+
+<div class="alert alert-danger" role="alert">
+    <h1>Видео из морозилки</h1>
+    <a class="btn btn-warning" href="/video_fridge">Посмотреть</a>
+    <br> </br>
+</div>
+
+<div class="alert alert-warning" role="alert">
+    <h1>Фото из морозилки</h1>
+    <a class="btn btn-warning" href="/image_fridge">Посмотреть</a>
+    <br> </br>
+</div>
+
+<div class="alert alert-success" role="alert">
+    <h1>Насколько хорошо вы знаете Геннадия Горина?</h1>
+    <a class="btn btn-warning" href="/test">Пройти</a>
+    <br> </br>
+</div>
+
+
+{% endblock %}

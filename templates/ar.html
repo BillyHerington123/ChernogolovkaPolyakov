@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>articles</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bg.css') }}">
+</head>
+<body background="{{ url_for('static', filename='Images/moroz.jpg') }}">
+<div>
+    <a class="btn_1" href="/pervaya">Вернуться на главную</a>
+</div>
+
+<div>
+    <video class="video_1" src="{{ url_for('static', filename='Videos/video1.mp4') }}" controls="controls" width="540"
+           height="240"></video>
+    <a class="dw1" href="static/Videos/video1.mp4" download=""><img src="static/Images/dw.png" width="50" height="50"
+                                                                    alt=""></a>
+    <a class="dw2" href="static/Videos/video2.mp4" download=""><img src="static/Images/dw.png" width="50" height="50"
+                                                                    alt=""></a>
+    <video class="video_2" src="{{ url_for('static', filename='Videos/video2.mp4') }}" controls="controls" width="540"
+           height="240"></video>
+</div>
+<div>
+    <video class="video_3" src="{{ url_for('static', filename='Videos/video3.mp4') }}" controls="controls" width="540"
+           height="240"></video>
+    <a class="dw3" href="static/Videos/video3.mp4" download=""><img src="static/Images/dw.png" width="50" height="50"
+                                                                    alt=""></a>
+    <a class="dw4" href="static/Videos/video4.mp4" download=""><img src="static/Images/dw.png" width="50" height="50"
+                                                                    alt=""></a>
+    <video class="video_4" src="{{ url_for('static', filename='Videos/video4.mp4') }}" controls="controls" width="540"
+           height="240"></video>
+</div>
+
+<div>
+    <video class="video_5" src="{{ url_for('static', filename='Videos/video5.mp4') }}" controls="controls" width="540"
+           height="240"></video>
+    <a class="dw5" href="static/Videos/video5.mp4" download=""><img src="static/Images/dw.png" width="50" height="50"
+                                                                    alt=""></a>
+    <a class="dw6" href="static/Videos/video6.mp4" download=""><img src="static/Images/dw.png" width="50" height="50"
+                                                                    alt=""></a>
+    <video class="video_6" src="{{ url_for('static', filename='Videos/video6.mp4') }}" controls="controls" width="540"
+           height="240"></video>
+</div>
+
+</body>
+</html>

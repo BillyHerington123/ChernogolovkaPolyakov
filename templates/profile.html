@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+
+{% for item in users%}
+{% if item == current_user %}
+<body class="box">
+<h1>Ваш профиль</h1>
+<br> </br>
+<div>
+    <div>
+        <h4>Имя пользователя: {{item.name}}</h4>
+        <h4>Почта: {{item.email}}</h4>
+        <h4>Пароль: {{item.hashed_password}}</h4>
+        <h4>Вы зарегестрировались: {{item.created_date}}</h4>
+    </div>
+    <br> </br>
+
+    <a class="btn btn-danger" href="/logout">
+        Выйти из аккаунта
+    </a>
+</div>
+</body>
+{% endif %}
+{% endfor %}
+{% endblock %}
+

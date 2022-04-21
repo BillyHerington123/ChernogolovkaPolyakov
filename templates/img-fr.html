@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>articles</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bg.css') }}">
+</head>
+<body background="{{ url_for('static', filename='Images/moroz.jpg') }}">
+<div>
+    <a class="btn_1" href="/pervaya">Вернуться на главную</a>
+</div>
+
+<div>
+    <img class="fridge_image1" src="{{ url_for('static', filename='Images/bzz.jpg') }}" width="540" height="240"></img>
+    <a class="dw1" href="static/Images/bzz.jpg" download=""><img src="static/Images/dw.png" width="50" height="50"
+                                                                 alt=""></a>
+    <a class="dw2" href="static/Images/rhbg.jpg" download=""><img src="static/Images/dw.png" width="50" height="50"
+                                                                  alt=""></a>
+    <img class="fridge_image2" src="{{ url_for('static', filename='Images/rhbg.jpg') }}" width="540" height="240"></img>
+</div>
+<div>
+    <img class="fridge_image3" src="{{ url_for('static', filename='Images/бравлстарс.jpg') }}" width="540"
+         height="240"></img>
+    <a href="static/Images/бравлстарс.jpg" download=""><img class="dw3" src="static/Images/dw.png" width="50"
+                                                            height="50" alt=""></a>
+    <a href="static/Images/саске.jpg" download=""><img class="dw4" src="static/Images/dw.png" width="50" height="50"
+                                                       alt=""></a>
+    <img class="fridge_image4" src="{{ url_for('static', filename='Images/саске.jpg') }}" width="540"
+         height="240"></img>
+</div>
+
+<div>
+    <img class="fridge_image5" src="{{ url_for('static', filename='Images/будущее.jpg') }}" width="540"
+         height="240"></img>
+    <a href="static/Images/будущее.jpg" download=""><img class="dw5" src="static/Images/dw.png" width="50" height="50"
+                                                         alt=""></a>
+    <a href="static/Images/ubnkth.jpg" download=""><img class="dw6" src="static/Images/dw.png" width="50" height="50"
+                                                        alt=""></a>
+    <img class="fridge_image6" src="{{ url_for('static', filename='Images/ubnkth.jpg') }}" width="540"
+         height="240"></img>
+</div>
+
+</body>
+</html>

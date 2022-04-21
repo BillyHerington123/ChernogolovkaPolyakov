@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+<body>
+<h1>Записки на холодильнике</h1>
+<div>
+    <a href="/fr_so" class="btn btn-warning">Все записки</a>
+    <a href="/fr_se" class="btn btn-warning">Мои записки</a>
+    <br></br>
+    <a href="news" class="btn btn-success">Добавить запись</a>
+</div>
+<div>
+    <img class="fridge_image9" src="{{ url_for('static', filename='Images/fon.jpg') }}" width="890" height="440"></div>
+</body>
+
+
+{% endblock %}

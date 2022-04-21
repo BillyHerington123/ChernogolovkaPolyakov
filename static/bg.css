@@ -1,0 +1,104 @@
+
+.btn_1 {
+  margin-top: 30px;
+  margin-left: 790px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  font-size: 140%;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;
+}
+.btn_1:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+.btn_1:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
+
+.video_1 {
+        margin-left: 125px;
+        margin-top: 100px;
+}
+.video_2 {
+        margin-left: 0px;
+
+}
+.video_3 {
+        margin-left: 125px;
+        margin-top: 10px;
+}
+.video_4 {
+        margin-left: 0px;
+
+}
+.video_5 {
+        margin-left: 125px;
+        margin-top: 10px;
+}
+.video_6 {
+        margin-left: 0px;
+
+}
+
+.fridge_image1 {
+        margin-left: 125px;
+        margin-top: 80px;
+}
+
+.fridge_image2 {
+        margin-left: 0px;
+
+}
+
+.fridge_image3 {
+        margin-left: 125px;
+        margin-top: 10px;
+}
+
+.fridge_image4 {
+        margin-left: 0px;
+}
+
+.fridge_image5 {
+        margin-left: 125px;
+        margin-top: 10px;
+}
+
+.fridge_image6 {
+        margin-left: 0px;
+}
+.fridge_image9 {
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.dw1 {
+    margin-left: 5px;
+}
+
+.dw2 {
+    margin-left: 450px;
+}
+
+.dw3 {
+    margin-left: 5px;
+}
+
+.dw4 {
+    margin-left: 450px;
+}
+
+.dw5 {
+    margin-left: 5px;
+}
+
+.dw6 {
+    margin-left: 450px;
+}
+
+.preview {
+    margin-left: 300px;
+}

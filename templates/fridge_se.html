@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block content %}
+<body>
+<h1>Ваши записки на холодильнике</h1>
+<a href="/fridge" class="btn btn-warning">< Назад</a>
+{% for item in news%}
+{% if item.is_private == 1 and current_user == item.user%}
+<br> </br>
+<div class="col-md6 border rounded">
+    <h2>{{item.title}}</h2>
+    <div>
+        {{item.content}}
+    </div>
+    <div>
+        Автор - {{item.user.name}}, Дата написания - {{item.created_date}}
+    </div>
+    {% if current_user.is_authenticated and current_user == item.user%}
+    <div>
+        <a href="/news1/{{ item.id }}" class="btn btn-warning">
+            Изменить
+        </a>
+        <a href="/news_delete1/{{ item.id }}" class="btn btn-danger">
+            Удалить
+        </a>
+    </div>
+    {% endif %}
+    {% endif %}
+</div>
+</body>
+
+
+{% endfor %}
+{% endblock %}

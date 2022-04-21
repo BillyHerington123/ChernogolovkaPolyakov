@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<a href="/pervaya" class="btn btn-warning">< Назад</a>
+<h1>Вы знаете Геннадия Горина всего на: {{res_p}}.</h1>
+<h4>Генадий Горин доволен но хочет быть веселее, чтобы сделать его весёлым посмотрите
+    его ютуб канал и продите тест на более лучший результат:</h4>
+<a href="https://www.youtube.com/channel/UCreZ0TYdHi-i7zhi97U5T1Q">https://www.youtube.com/channel/UCreZ0TYdHi-i7zhi97U5T1Q</a>
+<img src="{{ url_for('static', filename='Images/norm_g.jpg') }}" width="740" height="380"></img>
+
+{% endblock %}

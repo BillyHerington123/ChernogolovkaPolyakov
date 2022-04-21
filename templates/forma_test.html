@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<div>
+    <form class="login_form" method="post">
+        <div class="form-group">
+            <label for="classSelect1">Где родился Геннадий Горин?</label>
+            <select class="form-control" id="classSelect1" name="class1">
+                <option>Выберите ответ</option>
+                <option>Орёл</option>
+                <option>Древний Египет</option>
+                <option>Чебоксары</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="classSelect2">В каком году родился Геннадий горин?</label>
+            <select class="form-control" id="classSelect2" name="class2">
+                <option>Выберите ответ</option>
+                <option>2004</option>
+                <option>1972</option>
+                <option>1963</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="classSelect3">Что больше всего пугает Геннадия Горина?</label>
+            <select class="form-control" id="classSelect3" name="class3">
+                <option>Выберите ответ</option>
+                <option>Его брат (Гешка)</option>
+                <option>Табуретки</option>
+                <option>Xолодильники</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="classSelect4">В какую игру играл Геннадий Горин на стриме?</label>
+            <select class="form-control" id="classSelect4" name="class4">
+                <option>Выберите ответ</option>
+                <option>Гта Сан Андреас</option>
+                <option>Киберпанк с трассировкой лучей</option>
+                <option>Угадай тыкву</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="classSelect5">Какая настоящая фамилия Геннадия Горина?</label>
+            <select class="form-control" id="classSelect5" name="class5">
+                <option>Выберите ответ</option>
+                <option>Макаров</option>
+                <option>Величко</option>
+                <option>Горин</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="classSelect6">Чем для создания музыки пользуется Геннадий Горин?</label>
+            <select class="form-control" id="classSelect6" name="class6">
+                <option>Выберите ответ</option>
+                <option>FL Studio</option>
+                <option>Ableton</option>
+                <option>Губная гармошка</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="classSelect7">Что случилось с мамой Геннадия Горина?</label>
+            <select class="form-control" id="classSelect7" name="class7">
+                <option>Выберите ответ</option>
+                <option>Понос</option>
+                <option>Погибла на Донбассе</option>
+                <option>Стала депутатом своего города</option>
+            </select>
+        </div>
+
+
+        <div class="form-group">
+            <label for="photo">Приложите фотографию, так в будущем будет топ знатоков Генадия Горина</label>
+            <input type="file" class="form-control-file" id="photo" name="file">
+        </div>
+
+
+        <button type="submit" class="btn btn-primary">Узнать результат</button>
+    </form>
+</div>
+
+{% endblock %}
